@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://msfintltestgeneva.sharepoint.com/sites/GRP-SITS-ShareWithGuest/Media/Forms/AllItems.aspx",
+      "customActions": {
+        "a6df55c3-3bd1-438e-88be-50dfde6181de": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "msfListDescription": {
+      "pageUrl": "https://msfintltestgeneva.sharepoint.com/sites/GRP-SITS-ShareWithGuest/Media/Forms/AllItems.aspx",
+      "customActions": {
+        "a6df55c3-3bd1-438e-88be-50dfde6181de": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

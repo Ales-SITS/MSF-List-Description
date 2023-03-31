@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="MsfListDescription"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="a6df55c3-3bd1-438e-88be-50dfde6181de"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+     <CustomAction
+        Title="SPFxListViewCommandSet"
+        RegistrationId="101"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="a6df55c3-3bd1-438e-88be-50dfde6181de"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>

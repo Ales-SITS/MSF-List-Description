@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "MSF List Description",
+    "id": "2c5907e0-4cae-4431-8f40-4e34ddf12a3b",
+    "version": "1.0.1.6",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "iconPath": "MSF.png",
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Display your list/library description directly on list/library."
+      },
+      "longDescription": {
+        "default": "This SPFx solutions allows you to display a list or library description directly on site. You can use it to give your users instructions or hints when working with the list items or files. Simply install this app, and write 'description=true:' in front of your description text. Check this site https://msfintl.sharepoint.com/sites/JEDI/SitePages/MSFaddins.aspx for more awesome customizing options."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "MSF List Description",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "a5de8aa2-dea1-43a9-9283-ece1018d816c",
+        "version": "1.0.1.6",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/msf-list-description.sppkg"
+  }
+}

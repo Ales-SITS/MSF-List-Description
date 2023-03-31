@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "msf-list-description-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/msfListDescription/MsfListDescriptionCommandSet.js",
+          "manifest": "./src/extensions/msfListDescription/MsfListDescriptionCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsfListDescriptionCommandSetStrings": "lib/extensions/msfListDescription/loc/{locale}.js"
+  }
+}
