@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
     "name": "MSF List Description",
-    "id": "2c5907e0-4cae-4431-8f40-4e34ddf12a3b",
-    "version": "1.0.1.6",
+    "id": "22e48c4c-be12-4e93-acc8-e78fb653b1be",
+    "version": "1.0.2.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,8 +30,8 @@
       {
         "title": "MSF List Description",
         "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "a5de8aa2-dea1-43a9-9283-ece1018d816c",
-        "version": "1.0.1.6",
+        "id": "75bcca92-fe6c-411e-99ac-5299929f8995",
+        "version": "1.0.2.0",
         "assets": {
           "elementManifests": [
             "elements.xml",
