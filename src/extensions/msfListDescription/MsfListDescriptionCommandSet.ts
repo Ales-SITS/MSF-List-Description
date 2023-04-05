@@ -34,7 +34,9 @@ export default class MsfListDescriptionCommandSet extends BaseListViewCommandSet
       overflow: hidden;
       position: sticky;
       z-index: 1;
-      top:5px
+      top:5px;
+      left:5px;
+      z-index: 1;
       ">${description.replace('description=true:','')}
       </div> 
       `) 
@@ -59,15 +61,16 @@ export default class MsfListDescriptionCommandSet extends BaseListViewCommandSet
       description.includes('<script') ? "" :
       description.startsWith('description=true:') ? 
       libhead.insertAdjacentHTML('afterend',`
-      <div id="spfx_des" style="
+      <div id="spfx_des" class="od-ItemsScopeList-content-sticky" style="
       min-height: 45px;
       width: 100%;
       margin: 0 10px;
       padding: 0 20px;
       overflow: hidden;
       position: sticky;
+      top:5px;
+      left:5px;
       z-index: 1;
-      top:5px
       ">${description.replace('description=true:','')}
       </div> 
       `) 

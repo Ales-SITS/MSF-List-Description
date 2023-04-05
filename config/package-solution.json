@@ -3,7 +3,7 @@
   "solution": {
     "name": "MSF List Description",
     "id": "22e48c4c-be12-4e93-acc8-e78fb653b1be",
-    "version": "1.0.2.0",
+    "version": "1.0.2.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -31,7 +31,7 @@
         "title": "MSF List Description",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "75bcca92-fe6c-411e-99ac-5299929f8995",
-        "version": "1.0.2.0",
+        "version": "1.0.2.1",
         "assets": {
           "elementManifests": [
             "elements.xml",
